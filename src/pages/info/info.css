@@ -1,0 +1,50 @@
+.infoPage{
+    width: 80%;
+    /* height: 90%; */
+    margin: 5% 10%;
+    background-color: rgb(222, 232, 232);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+}
+.infoHeading{
+    font-size: 30px;
+    font-family: 'Calistoga';
+    margin: 10px 40px;
+}
+.infoSubHeading{
+    font-family: 'Calistoga';
+    font-weight: 100;
+    color: rgb(172, 172, 172);
+    margin: 10px 40px 40px 40px;
+}
+.formitem>label{
+    font-size: 20px;
+    color: rgb(32, 32, 165);
+    font-family: 'Calistoga';
+    margin: 10px 40px;
+    font-weight: 50;
+}
+.formitem>input{
+    font-size: 20px;
+    margin: 10px 40px;
+    width: 450px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(172, 172, 172);
+    border: 2px solid rgb(172, 172, 172);
+    outline: none;
+}
+.submitbutton{
+    width: 120px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(15, 15, 107);
+    border-radius: 10px;
+    margin-left: 390px;
+}
+
